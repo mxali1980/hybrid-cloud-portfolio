@@ -50,8 +50,12 @@ This project demonstrates how to host a **static website** on **Amazon S3** and 
 
 - **AWS S3** (Static Website Hosting)  
 - **AWS CloudFront** (Content Delivery Network)  
-- **AWS IAM** (Access & Security)  
+- **AWS IAM** (Access & Security)
+    
+---
 
+## Screenshots
+<img width="1350" height="1993" alt="mxali_index_main" src="https://github.com/user-attachments/assets/c20db6a4-150f-4bfe-9618-371802fb2d31" />
 
 ---
 
