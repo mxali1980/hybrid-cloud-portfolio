@@ -15,20 +15,7 @@ It allows users to submit messages through a web form, which are then sent as em
 ---
 
 ## Architecture Diagram
-[User Browser]
-|
-v
-[S3 Static Website]
-|
-v
-[API Gateway POST /contact]
-|
-v
-[Lambda Function]
-|
-v
-[AWS SES Email Delivery]
-
+<img width="1536" height="1024" alt="Serverless Contact Form - AWS" src="https://github.com/user-attachments/assets/2eda9be6-8a01-4aed-aff7-0ef6093c0883" />
 
 **Explanation:**
 1. User fills out the form hosted on **S3**.
@@ -40,9 +27,7 @@ v
 
 ## Project Files
 
-- `index.html` – Contact form HTML page
-- `form.js` – JavaScript code to send form data to API Gateway
-- `lambda_function.py` – Python Lambda function code
+- `mxali_index_main2` – Contact form HTML page
 - `README.md` – Project documentation
 
 ---
@@ -69,7 +54,7 @@ v
 4. Copy the **Invoke URL**.
 
 ### 5. Update HTML Form
-- In `form.js`, replace `YOUR_API_GATEWAY_INVOKE_URL/contact` with your API Gateway URL.
+- [YOUR_API_GATEWAY_INVOKE_URL/contact](https://kte0eibg8l.execute-api.us-east-2.amazonaws.com/contact) API Gateway URL.
 
 ### 6. Upload to S3
 1. Upload HTML, JS, and CSS to your **S3 static website bucket**.
@@ -84,10 +69,8 @@ v
 
 ## Screenshots
 
-![Website Screenshot](screenshots/website.png)  
-![Form Submission Screenshot](screenshots/form_submission.png)  
+<img width="1350" height="2079" alt="mxali_index_main2" src="https://github.com/user-attachments/assets/bea8c6cc-7885-4ea5-9e53-014236b6b6e6" />
 
-*(Add screenshots in `screenshots/` folder)*
 
 ---
 
@@ -111,5 +94,6 @@ This project demonstrates:
 
 ---
 ## Challenges and Solutions
+
 
 - CloudFront will not show the updated html file content
