@@ -55,7 +55,7 @@ This project demonstrates how to host a **static website** on **Amazon S3** and 
 ---
 
 ## Screenshots
-<img width="1350" height="1993" alt="mxali_index_main" src="https://github.com/user-attachments/assets/c20db6a4-150f-4bfe-9618-371802fb2d31" />
+<img width="1350" height="1462" alt="mxali_index_main_local" src="https://github.com/user-attachments/assets/c17915fd-81e6-432b-8cbc-c23f81aefc12" />
 
 ---
 
