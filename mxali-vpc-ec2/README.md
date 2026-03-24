@@ -14,6 +14,15 @@ Designed and deployed a production-style AWS infrastructure environment includin
 - Apache web server hosting a public page  
 
 ---
+## ⚙️ Key Components/Services Used
+- Amazon VPC  
+- Subnets  
+- Route Tables  
+- Internet Gateway  
+- EC2  
+- Security Groups 
+
+---
 
 ## 🔐 Security
 - SSH access restricted to specific IP  
@@ -22,13 +31,22 @@ Designed and deployed a production-style AWS infrastructure environment includin
 
 ---
 
-## ⚙️ Key Components
-- Amazon VPC  
-- Subnets  
-- Route Tables  
-- Internet Gateway  
-- EC2  
-- Security Groups  
+## Deployment Steps
+1. Created a custom VPC
+2. Created a public subnet
+3. Enabled auto-assign public IPv4
+4. Created and attached an Internet Gateway
+5. Created a Route Table and added `0.0.0.0/0` route to the Internet Gateway
+6. Associated the Route Table with the public subnet
+7. Created a Security Group for SSH and HTTP
+8. Launched an EC2 instance in the custom VPC
+9. Connected to the instance and installed Apache
+10. Verified public website access from browser
+
+---
+
+## Troubleshooting
+- During deployment, I initially could not connect to the EC2 instance using EC2 Instance Connect.
 
 ---
 
@@ -38,7 +56,26 @@ Successfully deployed a publicly accessible web server using custom AWS networki
 ---
 
 ## 📸 Screenshots
-(Add screenshots in the screenshots/ folder)
+### VPC
+![VPC](screenshots/mxali-vpc-1.JPG)
+
+### Subnet
+![Subnet](screenshots/mxali-subnet.JPG)
+
+### Route Table
+![Route Table](screenshots/mxali-route-table.JPG)
+
+### Internet Gateway
+![Internet Gateway](screenshots/mxali-internet-gateway.JPG)
+
+### Security Group
+![Security Group](screenshots/mxali-security-group.JPG)
+
+### EC2 Instance
+![EC2 Instance](screenshots/mxali-ec2-instance.JPG)
+
+### Website
+![Website](screenshots/Project Mxali.JPG)
 
 
 ## 👨‍💻 Author
