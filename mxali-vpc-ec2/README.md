@@ -31,7 +31,7 @@ Designed and deployed a production-style AWS infrastructure environment includin
 
 ---
 
-## Deployment Steps
+## 📦 Deployment Steps
 1. Created a custom VPC
 2. Created a public subnet
 3. Enabled auto-assign public IPv4
@@ -45,9 +45,9 @@ Designed and deployed a production-style AWS infrastructure environment includin
 
 ---
 
-## Troubleshooting
+##  🛠️ Troubleshooting
 - During deployment, I initially could not connect to the EC2 instance using EC2 Instance Connect. 
--   Resolved it by modifying security group rules to permit SSH traffic from the EC2 Instance Connect service.
+- Resolved it by modifying security group rules to permit SSH traffic from the EC2 Instance Connect service.
 
 ---
 
@@ -80,4 +80,4 @@ Successfully deployed a publicly accessible web server using custom AWS networki
 
 
 ## 👨‍💻 Author
-**MXALI**  
+**MxALI**  
