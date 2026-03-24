@@ -75,7 +75,7 @@ Successfully deployed a publicly accessible web server using custom AWS networki
 ![EC2 Instance](screenshots/mxali-ec2-instance.JPG)
 
 ### Website
-![Website](screenshots/Project Mxali.JPG)
+![Website](screenshots/project-mxali.JPG)
 
 
 ## 👨‍💻 Author
