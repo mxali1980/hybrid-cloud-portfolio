@@ -46,7 +46,8 @@ Designed and deployed a production-style AWS infrastructure environment includin
 ---
 
 ## Troubleshooting
-- During deployment, I initially could not connect to the EC2 instance using EC2 Instance Connect.
+- During deployment, I initially could not connect to the EC2 instance using EC2 Instance Connect. 
+-   Resolved it by modifying security group rules to permit SSH traffic from the EC2 Instance Connect service.
 
 ---
 
