@@ -54,7 +54,7 @@ It allows users to submit messages through a web form, which are then sent as em
 4. Copy the **Invoke URL**.
 
 ### 5. Update HTML Form
-- [YOUR_API_GATEWAY_INVOKE_URL/contact](https://kte0eibg8l.execute-api.us-east-2.amazonaws.com/contact) API Gateway URL.
+- API Gateway URL.[https://kte0eibg8l.execute-api.us-east-2.amazonaws.com/contact]
 
 ### 6. Upload to S3
 1. Upload HTML, JS, and CSS to your **S3 static website bucket**.
