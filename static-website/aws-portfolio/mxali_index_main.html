@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My AWS Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    img {
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .certifications {
+      background-color: #fff;
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .certifications h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .certifications p {
+      font-size: 16px;
+      margin: 8px 0;
+      color: #333;
+    }
+
+    .social-icons {
+      margin-top: 30px;
+    }
+
+    .fa {
+      padding: 15px;
+      font-size: 24px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px;
+      border-radius: 50%;
+      color: white;
+    }
+
+    .fa-facebook { background: #3B5998; }
+    .fa-twitter { background: #55ACEE; }
+    .fa-linkedin { background: #007bb5; }
+    .fa-github { background: #333; }
+
+    #date {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <h1>Hello, My name is MxAli</h1>
+  <p>Welcome to my AWS project portfolio!</p>
+
+  <img src="images/red_3.png" alt="red gemini">
+
+  <div class="certifications" id="certifications">
+    <h2>AWS Certifications</h2>
+    <p>AWS Certified Cloud Practitioner</p>
+    <p>AWS Certified Solutions Architect Associate</p>
+  </div>
+
+  <style>
+  .contact-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #444;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+  }
+
+  .contact-form textarea {
+    min-height: 100px;
+  }
+
+  .contact-form button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.75rem;
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .contact-form button:hover {
+    background: #005bb5;
+  }
+</style>
+
+<form id="contactForm" class="contact-form">
+  <h2>Contact Me</h2>
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+
+  <div class="social-icons">
+    <a href="https://facebook.com" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+    <a href="https://linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://github.com" class="fa fa-github" target="_blank"></a>
+  </div>
+
+  <div id="date"></div>
+
+
+  <script>
+    // Display current date and time
+    function updateDateTime() {
+      const dateElement = document.getElementById("date");
+      const now = new Date();
+      const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+      const formattedDate = now.toLocaleDateString(undefined, dateOptions);
+      const formattedTime = now.toLocaleTimeString(undefined, timeOptions);
+      dateElement.textContent = `Current date and time: ${formattedDate}, ${formattedTime}`;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000); // Update every second
+  </script>
+
+</body>
+</html>
