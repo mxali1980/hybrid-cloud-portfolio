@@ -95,5 +95,9 @@ This project demonstrates:
 ---
 ## Challenges and Solutions
 
-
 - CloudFront will not show the updated html file content
+
+---
+
+## 👨‍💻 Author
+**MxALI**  
