@@ -1,11 +1,11 @@
-# Serverless Contact Form with AWS
+## 🚀 Serverless Contact Form with AWS
 
-## Project Overview
+## 📌 Project Overview
 
 This is a **serverless contact form** built using **AWS S3, Lambda, API Gateway, and SES**.  
 It allows users to submit messages through a web form, which are then sent as emails without the need for a backend server.  
 
-**Key Features:**
+## ⚙️ Key Features
 - Fully serverless architecture
 - Email notifications via AWS SES
 - Hosted static website on AWS S3
@@ -14,7 +14,7 @@ It allows users to submit messages through a web form, which are then sent as em
 
 ---
 
-## Architecture Diagram
+## 🏗️ Architecture Diagram
 <img width="1536" height="1024" alt="Serverless Contact Form - AWS" src="https://github.com/user-attachments/assets/2eda9be6-8a01-4aed-aff7-0ef6093c0883" />
 
 **Explanation:**
@@ -25,14 +25,14 @@ It allows users to submit messages through a web form, which are then sent as em
 
 ---
 
-## Project Files
+## 📂 Project Files
 
 - `mxali_index_main2` – Contact form HTML page
 - `README.md` – Project documentation
 
 ---
 
-## Setup Instructions
+## 📦 Setup Instructions
 
 ### 1. Verify Email in AWS SES
 1. Go to **AWS SES → Verified Identities → Verify email address**.
@@ -74,7 +74,7 @@ It allows users to submit messages through a web form, which are then sent as em
 
 ---
 
-## Technologies Used
+## ⚙️ Key Components/Services Used
 
 - AWS S3 (Static Website Hosting)
 - AWS Lambda (Serverless Function)
@@ -84,7 +84,7 @@ It allows users to submit messages through a web form, which are then sent as em
 
 ---
 
-## Portfolio Notes
+## 📂 Portfolio Notes
 
 This project demonstrates:
 - End-to-end serverless application architecture
@@ -93,7 +93,7 @@ This project demonstrates:
 - Beginner-friendly portfolio-ready cloud project
 
 ---
-## Challenges and Solutions
+## 🛠️ Troubleshooting
 
 - CloudFront will not show the updated html file content
 
