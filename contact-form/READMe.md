@@ -93,7 +93,7 @@ This project demonstrates:
 - Beginner-friendly portfolio-ready cloud project
 
 ---
-## 🛠️ Troubleshooting
+## 🛠️ Issues/Troubleshooting
 
 - CloudFront will not show the updated html file content
 
