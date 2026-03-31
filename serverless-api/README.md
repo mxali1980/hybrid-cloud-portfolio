@@ -1,4 +1,4 @@
-# Serverless Task API (AWS)
+# Serverless API (AWS)
 
 ## 📌 Project Overview
 
@@ -69,8 +69,8 @@ serverless-api/
 ### POST Request Test
 ![POST Test](screenshots/09-api-post-test.png)
 
-### Dynamodb Item
-![Dynamodb Item](screenshots/10-dynamodb-second-item.png)
+### Dynamodb Item List
+![Dynamodb Item List](screenshots/10-dynamodb-second-item.png)
 
 ### API Gateway Routes
 ![API Gateway](screenshots/12-api-routes-get-post.png)
