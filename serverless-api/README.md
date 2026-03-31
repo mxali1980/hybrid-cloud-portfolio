@@ -38,50 +38,6 @@ serverless-api/
  ├── README.md
  ├── screenshots/
 ```
-
----
-
-## 🧪 Testing
-
-### POST /tasks
-
-Creates a new task.
-
-Request body:
-
-```json
-{
-  "taskName": "Build AWS portfolio"
-}
-```
-
-Response:
-
-```json
-{
-  "message": "Task created successfully",
-  "taskId": "generated-id",
-  "taskName": "Build AWS portfolio"
-}
-```
-
----
-
-### GET /tasks
-
-Returns all tasks.
-
-Response:
-
-```json
-[
-  {
-    "taskId": "abc-123",
-    "taskName": "Study AWS"
-  }
-]
-```
-
 ---
 
 ## 📸 Screenshots
