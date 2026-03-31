@@ -48,14 +48,32 @@ serverless-api/
 ### Lambda Function
 ![Lambda](screenshots/02-lambda-overview.png)
 
+### Lambda Permissions
+![Lambda](screenshots/03-lambda-dynamodb-permission.png)
+
 ### Lambda Code
 ![Lambda Code](screenshots/04-lambda-code.png)
 
-### API Gateway Routes
-![API Gateway](screenshots/12-api-routes-get-post.png)
+### Lambda Test Result
+![Lambda Test](screenshots/05-lambda-test-success.png)
+
+### Dynamodb Item List
+![Dynamodb](screenshots/06-dynamodb-item.png)
+
+### Create API
+![API Creation](screenshots/07-api-creation.png)
+
+### API Invoke URL
+![API URL](screenshots/08-api-invoke-url.png)
 
 ### POST Request Test
 ![POST Test](screenshots/09-api-post-test.png)
+
+### Dynamodb Item
+![Dynamodb Item](screenshots/10-dynamodb-second-item.png)
+
+### API Gateway Routes
+![API Gateway](screenshots/12-api-routes-get-post.png)
 
 ### GET Request Test
 ![GET Test](screenshots/13-api-get-test.png)
