@@ -43,27 +43,21 @@ serverless-api/
 ## 📸 Screenshots
 
 ### DynamoDB Table
-
 ![DynamoDB](screenshots/01-dynamodb-table.png)
 
 ### Lambda Function
-
 ![Lambda](screenshots/02-lambda-overview.png)
 
 ### Lambda Code
-
 ![Lambda Code](screenshots/04-lambda-code.png)
 
 ### API Gateway Routes
-
 ![API Gateway](screenshots/12-api-routes-get-post.png)
 
 ### POST Request Test
-
 ![POST Test](screenshots/09-api-post-test.png)
 
 ### GET Request Test
-
 ![GET Test](screenshots/13-api-get-test.png)
 
 ---
